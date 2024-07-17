@@ -8,39 +8,44 @@ body, h1, h2, p, ul, li, a, footer {
 /* Set default font and background color for the body */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #d5ded9;
-    color: #2b3a3c;
+    background-color: #f0f0f0;
+    color: #333;
     padding: 20px;
 }
 
 /* Style the header */
 header {
-    background-color: #8fa186;
-    color: white;
-    padding: 10px 0;
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 /* Style the sections */
 section {
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px 0;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center-align the content */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 /* Style the section headers */
 section h2 {
-    color: #46695f;
-    margin-bottom: 10px;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* Style the about me section */
 #about-me img {
     border-radius: 50%;
     margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    border: 2px solid #333;
 }
 
 /* Style the list items */
@@ -50,13 +55,15 @@ ul {
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
 }
 
 /* Style the links */
 a {
-    color: #334e4c;
+    color: #333;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -67,11 +74,29 @@ a:hover {
 #contact img {
     vertical-align: middle;
     margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Style the skills section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-box {
+    background-color: #e8e8e8;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 /* Style the footer */
 footer {
-    background-color: #334e4c;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
