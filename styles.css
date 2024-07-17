@@ -8,14 +8,14 @@ body, h1, h2, p, ul, li, a, footer {
 /* Set default font and background color for the body */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
+    background-color: #d5ded9;
+    color: #2b3a3c;
     padding: 20px;
 }
 
 /* Style the header */
 header {
-    background-color: #1e90ff;
+    background-color: #8fa186;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -32,7 +32,7 @@ section {
 
 /* Style the section headers */
 section h2 {
-    color: #1e90ff;
+    color: #46695f;
     margin-bottom: 10px;
 }
 
@@ -54,7 +54,7 @@ ul li {
 
 /* Style the links */
 a {
-    color: #1e90ff;
+    color: #334e4c;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:hover {
 
 /* Style the footer */
 footer {
-    background-color: #1e90ff;
+    background-color: #334e4c;
     color: white;
     text-align: center;
     padding: 10px 0;
