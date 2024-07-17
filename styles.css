@@ -7,15 +7,15 @@ body, h1, h2, p, ul, li, a, footer {
 
 /* Set default font and background color for the body */
 body {
-    font-family: 'Arial, sans-serif';
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
     color: #333;
     padding: 20px;
 }
 
 /* Style the header */
 header {
-    background-color: #4CAF50;
+    background-color: #1e90ff;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -24,16 +24,28 @@ header {
 /* Style the sections */
 section {
     margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the section headers */
 section h2 {
-    color: #4CAF50;
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+/* Style the about me section */
+#about-me img {
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 /* Style the list items */
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 ul li {
@@ -42,7 +54,7 @@ ul li {
 
 /* Style the links */
 a {
-    color: #4CAF50;
+    color: #1e90ff;
     text-decoration: none;
 }
 
@@ -50,11 +62,18 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Style the contact icons */
+#contact img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: #1e90ff;
     color: white;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    border-radius: 8px;
 }
