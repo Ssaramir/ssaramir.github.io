@@ -1,21 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a, footer {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
-
-section {
-    margin: 20px;
+/* Set default font and background color for the body */
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f0f0f0;
+    color: #333;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
+}
+
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the sections */
+section {
+    margin: 20px 0;
+}
+
+/* Style the section headers */
+section h2 {
+    color: #4CAF50;
+}
+
+/* Style the list items */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Style the links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
