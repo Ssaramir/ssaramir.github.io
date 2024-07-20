@@ -1,19 +1,14 @@
-/* Reset some default browser styles */
 body, h1, h2, p, ul, li, a, footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Set default font and background color for the body */
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f0f0f0;
     color: #333;
     padding: 20px;
 }
-
-/* Style the header */
 header {
     background-color: #fff;
     color: #333;
@@ -21,8 +16,6 @@ header {
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
-
-/* Style the sections */
 section {
     margin: 20px 0;
     padding: 20px 0;
@@ -30,16 +23,12 @@ section {
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
-
-/* Style the section headers */
 section h2 {
     color: #333;
     margin-bottom: 20px;
     font-size: 1.5em;
     font-weight: bold;
 }
-
-/* Style the about me section */
 #about-me img {
     border-radius: 50%;
     margin-bottom: 10px;
@@ -47,44 +36,33 @@ section h2 {
     height: auto;
     border: 2px solid #333;
 }
-
-/* Style the list items */
 ul {
     list-style-type: none;
     padding-left: 0;
 }
-
 ul li {
     margin: 10px 0;
     font-size: 1.1em;
 }
-
-/* Style the links */
 a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
-/* Style the contact icons */
 #contact img {
     vertical-align: middle;
     margin-right: 5px;
     width: 20px;
     height: 20px;
 }
-
-/* Style the skills section */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .skill-box {
     background-color: #e8e8e8;
     color: #333;
@@ -93,8 +71,6 @@ a:hover {
     border-radius: 5px;
     font-size: 1em;
 }
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: white;
